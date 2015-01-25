@@ -12,13 +12,13 @@ Information on the raw dataset
 Details about the files of the raw data (which should be contained in a file named "UCI HAR Dataset") can be found in the `README.txt` file. 
 The `README.txt` file is located in the same folder as all the other raw data. 
 
-'activity_labels.txt': Links the class labels with their activity name.
-'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-'train/X_train.txt': Training set.
-'train/y_train.txt': Training labels.
-'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-'test/X_test.txt': Test set.
-'test/y_test.txt': Test labels.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
 
 How to run the script with the dataset
 --------------------------------------
