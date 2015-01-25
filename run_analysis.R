@@ -49,6 +49,8 @@ FeatMeanStd$Feature <- gsub("([a-z])([A-Z])", "\\1_\\2", FeatMeanStd$Feature)
 names(D2)[3:length(D2)] <- FeatMeanStd$Feature
 
 # 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
+D3 <- D2
 D3 <- aggregate(D3[3:length(D3)], by = list(D3$Subject, D3$Activity), mean)
 names(D3)[1:2] <- c("Subject", "Activity")
-write.table(D3, file = "TidyData.txt", row.names = FALSE)
+write.table(D3, file = "result_MeanOfVariables.txt", row.names = FALSE)
+
