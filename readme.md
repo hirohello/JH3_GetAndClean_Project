@@ -25,7 +25,7 @@ How to run the script with the dataset
 1. Download the "UCI HAR Dataset" from the link in the Inroduction and upzip the file to the work directory. 
 2. Make sure the unzipped folder is named as "UCI HAR Dataset" (i.e. no alteration on the file names). 
 3. Run the script `run_analysis.R` which is provided in this repository. It tidies the raw dataset in 5 steps as requested for this project.
-4. The output should be the dataset 'result_MeanOfVariables.txt` which contains the average of each variable for each activity and each subject. 
+4. The output should be the dataset `result_MeanOfVariables.txt` which contains the average of each variable for each activity and each subject. 
 
 Variables in the output dataset
 -------------------------------
